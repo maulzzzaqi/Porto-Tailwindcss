@@ -267,6 +267,12 @@
               </div>
               <!-- bottom -->
               <form action="https://formsubmit.co/612d6e611494a222f685b36b044282ef" method="POST" class="mt-5 p-8 flex flex-col gap-5 items-center">
+                <!-- honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="text" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://maulzzzaqi.github.io/thankyou.html">
                 <input
                   class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm"
                   type="text" placeholder="Your name" name="name" required/>
